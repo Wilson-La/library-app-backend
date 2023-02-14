@@ -1,16 +1,13 @@
 package com.luv2code.springbootlibrary.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import jakarta.persistence.*;
+import lombok.*;
 
-import javax.persistence.*;
+
 
 @Entity
 @Table(name = "book")
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class Book {
 
     @Id
