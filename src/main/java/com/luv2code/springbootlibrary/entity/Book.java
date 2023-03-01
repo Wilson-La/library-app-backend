@@ -1,9 +1,8 @@
 package com.luv2code.springbootlibrary.entity;
 
-import jakarta.persistence.*;
+
+import javax.persistence.*;
 import lombok.*;
-
-
 
 @Entity
 @Table(name = "book")
